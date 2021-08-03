@@ -1,0 +1,447 @@
+@media screen and (min-width: 320px) {
+	* {
+		box-sizing:border-box
+	}
+	hr {
+		width: 75%;
+		border: solid .5px gray;
+		margin: 3em auto 3em auto;
+	}
+	h1 {
+		font-family: 'Montserrat', sans-serif;
+		margin: 0 auto 1em auto;
+	}
+	.icon-container {
+		padding-bottom: 2em;
+		margin-top: 1em;
+		text-align: center;
+	}
+	#toTop {
+	    position: fixed;
+		bottom: 0;
+		right: 0;
+		margin: 0 2em 0 0;
+	}
+	.scrollBox {
+		width: 2.5em;
+		height: 2.5em;
+		margin: 0 auto;
+		border-radius: 50%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background-color: rgba(189,208,209,0.5);
+	}
+	.scrollBox:hover {
+		cursor: pointer;
+	}
+	#body, #welcome {
+		display: flex;
+	}
+	.body {
+		flex-direction: column;
+		justify-content: space-evenly;
+	}
+	.header {
+		flex-direction: column;
+		justify-content: space-evenly;
+	}
+	.header {
+		display: flex;
+	}
+	.header {
+		z-index: 7;
+		height: 5em;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		/* position: sticky; */
+		top: 0;
+		background: rgba(255, 255, 255, .8);
+		padding: 0 2em;
+		border-radius: 10px;
+	}
+	.header-name {
+		font-family: 'Benne', serif;
+		font-size: x-large;
+		height: 2.25em;
+	}
+	.shwct_icon {
+		width: 3.5em;
+	}
+	#nav {
+		display: none;
+	}
+	.sidenav .nav-item-header {
+		padding: .5em 0 0 1em;
+		font-family: 'Benne', serif;
+		font-size: x-large;
+		border-bottom: solid 2px darkgray;
+		line-height: 2;
+	}
+	.side-nav-close {
+		cursor: pointer;
+	}
+	.side-nav-menu {
+		color: #757575;
+	}
+	.sidenav .nav-item {
+		font-family: 'Benne', serif;
+	}
+	.sidenav .nav-item a {
+		font-size: large;
+	}
+	.sidenav .nav-book-now {
+		background: #008B8B;
+	}
+	.sidenav .nav-book-now a {
+		color: #fff;
+	}
+	.splash-book-now {
+		margin: 0 .5em;
+		font-family: 'Roboto', sans-serif;
+		font-weight: 700;
+		cursor: pointer;
+		background: #008B8B;
+		padding: .5em;
+		border-radius: 25px;
+		width: 6em;
+		text-align: center;
+		transition: all .125s;
+	}
+	.splash-book-now:hover {
+		-webkit-filter: brightness(0.8);
+		-moz-filter: brightness(0.8);
+		filter: brightness(0.8);
+	}
+	.splash-book-now a {
+		text-decoration: none;
+		color: #fff;
+		text-shadow: 2px 2px black;
+	}
+	.content {
+		margin: 0 1em;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		min-height: 60em;
+		font-family: 'Benne', serif;
+		font-size: 20px;
+	}
+	.splash {
+		min-height: 40em;
+	}
+	#welcome {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -moz-box;
+		display: -ms-flexbox;
+		-webkit-flex-align: center;
+		-ms-flex-align: center;
+		-webkit-align-items: center;
+		align-items: center;
+		background-image: url('../lib/assets/Tony Gambino Photography-1002.jpg');
+		background-repeat:no-repeat;
+		background-size:cover;
+		background-position:bottom;
+		height: 25em;
+		border-radius: 10px;
+	}
+	.welcome-sign {
+		font-family: 'Allura', cursive;
+		color: #fff;
+		font-weight: bolder;
+		font-size: xx-large;
+		text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
+		left: 0;
+		position: absolute;
+		text-align: center;
+		top: 22%;
+		width: 100%;
+		padding: 0 1em 0 1em;
+	}
+	.welcome-text {
+		font-size: x-large;
+	}
+	#intro, #about, #overview, #contact {
+		text-align: center;
+	}
+	#intro {
+		margin: 1em auto auto auto;
+	}
+	#overview {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+	}
+	.overview-content {
+		display: flex;
+		justify-content: space-between;
+		flex-direction: column;
+		align-items: center; 
+	}
+	.overview-content:not(.no-margin-top) {
+		margin-top: 2em;
+	}
+	.overview-image {
+		height: 11em;
+		border-radius: 10px;
+	}
+	.not-mobile {
+		display: none;
+	}
+	.overview-text {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+	}
+	/* Slideshow container */
+	.slideshow-container {
+	max-width: 1000px;
+	position: relative;
+	margin: auto;
+	}
+
+	/* slide images */
+	.slide-image {
+		width: 100%;
+		border-radius: 10px;
+	}
+	/* Hide the images by default */
+	.mySlides {
+	display: none;
+	}
+
+	/* Next & previous buttons */
+	.prev, .next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	margin-top: -22px;
+	padding: 16px;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+	}
+
+	/* Position the "next button" to the right */
+	.next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+	}
+
+	/* On hover, add a black background color with a little bit see-through */
+	.prev:hover, .next:hover {
+	background-color: rgba(0,0,0,0.8);
+	}
+
+	/* Caption text */
+	/* .text {
+	color: #f2f2f2;
+	font-size: 15px;
+	padding: 8px 12px;
+	position: absolute;
+	bottom: 8px;
+	width: 100%;
+	text-align: center;
+	} */
+
+	/* Number text (1/3 etc) */
+	.numbertext {
+	color: #f2f2f2;
+	font-size: 12px;
+	padding: 8px 12px;
+	position: absolute;
+	top: 0;
+	}
+
+	/* The dots/bullets/indicators */
+	.dot {
+	cursor: pointer;
+	height: 15px;
+	width: 15px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+	}
+
+	.active, .dot:hover {
+	background-color: #717171;
+	}
+
+	/* Fading animation */
+	.fade {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
+	}
+
+	@-webkit-keyframes fade {
+	from {opacity: .4}
+	to {opacity: 1}
+	}
+
+	@keyframes fade {
+	from {opacity: .4}
+	to {opacity: 1}
+	}
+	/* .contact-image-container {
+		display: flex;
+		flex-direction: column;
+	} */
+	.contact-info {
+		width: 100%;
+		text-align: center;
+	}
+	.footer {
+		width: 100%;
+		height: 5em;
+		background-color: #444444;
+		text-align: center;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		padding: 1em;
+	}
+	.insta, .facebook {
+		width: 3em;
+	}
+	.insta {
+		margin-right: 1em;
+	}
+}
+@media screen and (min-width: 768px) {
+	.overview-image {
+		height: 20em;
+	}
+	.insta {
+		margin-right: 3em;
+	}
+}
+@media screen and (min-width: 1024px) {
+	hr {
+		margin: 5em auto 5em auto;
+	}
+	.icon-container {
+		padding-bottom: 2em;
+		margin-top: 3em;
+	}
+	.header {
+		margin: 0 1em;
+	}
+	.sidenav-trigger {
+		display: none;
+	}
+	#nav {
+		display: flex;
+	}
+	.header-name {
+		font-size: xx-large;
+	}
+	/* POSSIBLE HIDDEN HAMBURGER MENU ON SCROLL */
+	/* .scroll-header {
+		margin: 0;
+		opacity: 0;
+		top: 0;
+		position: sticky;
+	} */
+	.selected {
+		border-bottom: 1px solid black;
+	}
+	.nav-item:not(.selected):after {    
+		background: none repeat scroll 0 0 transparent;
+		bottom: 0;
+		content: "";
+		display: block;
+		height: 1px;
+		left: 50%;
+		background:black;
+		transition: width 0.3s ease 0s, left 0.3s ease 0s;
+		width: 0;
+	}
+	.nav-item:not(.selected):hover:after { 
+		width: 100%; 
+		left: 0; 
+	}
+	.header #nav {
+		flex-direction: row;
+		list-style: none;
+		justify-content: space-between;
+		padding: 0;
+		align-items: baseline;
+	}
+	.header #nav .nav-item, #nav-book-now {
+		margin: 0 .5em;
+		font-family: 'Roboto', sans-serif;
+		font-weight: 700;
+	}
+	.header #nav .nav-item a, #nav-book-now a {
+		text-decoration: none;
+		color: gray;
+	}
+	#nav-book-now {
+		cursor: pointer;
+		background: #008B8B;
+		padding: .5em;
+		border-radius: 25px;
+		width: 8em;
+		text-align: center;
+		transition: all .125s;
+	}
+	#nav-book-now:hover {
+		-webkit-filter: brightness(0.8);
+		-moz-filter: brightness(0.8);
+		filter: brightness(0.8);
+	}
+	#nav-book-now a {
+		color: #fff;
+		text-shadow: 2px 2px black;
+	}
+	.splash-book-now {
+		width: 8em;
+	}
+	#welcome {
+		height: 30em;
+	}
+	.welcome-sign {
+		font-size: xxx-large;
+		padding: 0;
+		top: 22%;
+	}
+	.welcome-text {
+		font-size: xx-large;
+	}
+	#intro {
+		margin: 2em auto auto auto;
+	}
+	.overview-image {
+		height: 22em;
+	}
+	.mobile {
+		display: none;
+	}
+	.not-mobile {
+		display: inline;
+	}
+	.overview-content {
+		flex-direction: row;
+		max-width: 75em;
+	}
+	.overview-content:not(.no-margin-top) {
+		margin-top: 4em;
+	}
+	.overview-image-container-right {
+		margin-right: 1.5em;
+	}
+	.overview-image-container-left {
+		margin-left: 1.5em;
+	}
+
+}
