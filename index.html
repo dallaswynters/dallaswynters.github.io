@@ -1,34 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-204169354-1"></script>
-	<script>
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
-
-	gtag('config', 'UA-204169354-1');
-	</script>
-
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<script type='application/ld+json'> 
-		{
-		  "@context": "http://www.schema.org",
-		  "@type": "product",
-		  "brand": "Summers Hill Wine Country Retreat",
-		  "name": "Summers HIll Wine Country Retreat",
-		  "logo": "lib/assets/favicon_io/favicon.ico",
-		  "image": "lib/assets/Tony%20Gambino%20Photography-1002.jpg",
-		  "description": "Family owned vacation rental in the heart of wine country. Located in beautiful Carlton, OR and nestled amongst local wineries, enjoy everything the beautiful Pacific Northwest has to offer. 1 hour from the coast, 1 hour from the mountains, and 10 mins from the nearest wineries. The perfect retreat from the everyday.",
-		  "aggregateRating": {
-			"@type": "aggregateRating",
-			"ratingValue": "4.67",
-			"reviewCount": "3"
-		  }
-		}
-		 </script>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -45,9 +19,6 @@
 	<meta name="theme-color" content="#ffffff">	
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Summers Hill Wine Country Retreat</title>
-	<meta property="og:title" content="Summers Hill Wine Country Retreat" />
-	<meta property="og:url" content="http://www.summershillretreat.com" />
-	<meta property="og:image" content="lib/assets/Tony Gambino Photography-1002.jpg" />
 </head>
 
 <body  id="home" class="body">
@@ -58,19 +29,200 @@
 		<div class="header-name mobile">
 			<img class="shwct_icon" src="lib/assets/shwct_icon.jpg" />
 		</div>
-		<span class="splash-book-now"><a target="_blank" href="https://abnb.me/rTNzuC3GBhb">Book Now</a></span>
+		<a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="side-nav-menu material-icons">menu</i></a>
+		<ul id="nav">
+			<li class="nav-item selected"><a href="#home">Home</a></li>
+			<li class="nav-item"><a href="#overview">Overview</a></li>
+			<li class="nav-item"><a href="#gallery">Gallery</a></li>
+			<li class="nav-item"><a href="#about">About</a></li>
+			<!-- NO REVIEWS YET
+			<li class="nav-item"><a href="#reviews">Reviews</li> -->
+
+			<li class="nav-item"><a href="#contact">Contact</a></li>
+			<li id="nav-book-now"><a target="_blank" href="https://abnb.me/rTNzuC3GBhb">Book Now</a></li>
+		</ul>
 	</div>
+	<ul class="sidenav" id="mobile-demo">
+		<!-- REMOVED 'X' <i class="side-nav-close sidenav-close material-icons">clear</i> -->
+		<li class="nav-item-header">Summers Hill Retreat</li>
+		<li class="nav-item"><a class="sidenav-close" href="#home">Home</a></li>
+		<li class="nav-item"><a class="sidenav-close" href="#overview">Overview</a></li>
+		<li class="nav-item"><a class="sidenav-close" href="#gallery">Gallery</a></li>
+		<li class="nav-item"><a class="sidenav-close" href="#about">About</a></li>
+		<!-- NO REVIEWS YET
+		<li class="nav-item"><a class="sidenav-close" href="#reviews">Reviews</li> -->
+
+		<li class="nav-item"><a class="sidenav-close" href="#contact">Contact</a></li>
+		<li class="nav-item nav-book-now"><a class="sidenav-close" target="_blank" href="https://www.stayporchlight.com/property/summers-hill-retreat">Book Now</a></li>
+	  </ul>
 	  
-	<div class="content splash">
+	<div class="content">
 		<section id="welcome">
 			<p class="welcome-sign">Stay among the vineyards, not in the neighborhoods</p>
 		</section>
 		<section id="intro">
-			<p class="welcome-text">Welcome to Summers Hill Wine Country Retreat.</p>
-			<p>This site is currently under construction. Please check back later for our full site.</p>
+			<p class="welcome-text">Welcome to Summers Hill Wine Country Retreat</p>
+			<p>Family retreat and wine tasting getaway sitting atop Summers Hill just west of Carlton. To the east guests look down into forested hills and two fabulous vineyards with Mt Hood in the distance. To the south guests gaze down over grassy farmlands and pastures to "High Heaven Peak" towards McMinnville. To the west a beautiful view of the Trask mountains with the coast range peeking over the top. Sleeps twelve (six couples) comfortably. One of the highlights of this home is the 2nd story wrap-around balcony and expansive deck including hot tub, gas fire pit and outdoor couches. Having a small to medium size gathering? The Bob and Myrna Summers courtyard, covered gazebo with fire pit and cabins are an added bonus.</p>
+			<p>COVID-19: We are committed to Airbnb’s 5-step enhanced cleaning process—a set of standards developed in partnership with experts, for the times of COVID-19 and beyond.</p>
 		</section>
+		<hr />
+		<h1>Overview</h1>
+		<section id="overview">
+			<div class="overview-content no-margin-top">
+				<div class="overview-image-container-right">
+					<img src="./lib/assets/Tony Gambino Photography-1014.jpg" class="overview-image"/>
+				</div>
+				<div class="overview-text">
+					<p>In addition to a well-appointed interior, the outdoor living space (including a fire pit) is picturesque and inviting. The hot tub on the deck of the second floor finishes the long, long list of reasons this property is ideal for quiet retreats and small family get-togethers. Peaceful, cozy lounging awaits!</p>
+				</div>
+		   </div>
+		   <div class="overview-content">
+				<div class="overview-image-container-left mobile">
+					<img src="./lib/assets/Tony Gambino Photography-1038.jpg" class="overview-image"/>
+				</div>
+				<div class="overview-text">
+					<p>From late nights in the hot tub staring at the stars, to watching deer in the early mornings with a cup of coffee. We are the home away from home.</p>
+				</div>
+				<div class="overview-image-container-left not-mobile">
+					<img src="./lib/assets/Tony Gambino Photography-1038.jpg" class="overview-image"/>
+				</div>
+	   		</div>
+			<div class="overview-content">
+				<div class="overview-image-container-right">
+					<img src="./lib/assets/Tony Gambino Photography-1035.jpg" class="overview-image"/>
+				</div>
+				<div class="overview-text">
+					<!-- PERHAPS WHAT TO DO IN THE AREA -->
+					<p>Whether it is a small get together of friends, or a large family reunion, we have you covered. Enjoy the Bob and Myrna Summers courtyard for all gathering sizes.</p>
+				</div>
+		   </div>
+		   <div class="overview-content">
+			<div class="overview-image-container-right mobile">
+				<img src="./lib/assets/Tony Gambino Photography-1059.jpg" class="overview-image"/>
+			</div>
+			<div class="overview-text">
+				<!-- PERHAPS WHAT TO DO IN THE AREA -->
+				<p>With two cabins on the property, we can sleep up to 12 people. Perfect for holiday get aways, and summer get togethers.</p>
+			</div>
+			<div class="overview-image-container-left not-mobile">
+				<img src="./lib/assets/Tony Gambino Photography-1059.jpg" class="overview-image"/>
+			</div>
+	   </div>
+		</section>
+		<hr/>
+		<h1>Gallery</h1>
+		<section id="gallery">
+			<!-- Slideshow container -->
+			<div class="slideshow-container">
+
+			<!-- Full-width images with number and caption text -->
+			<div class="mySlides fade">
+				<div class="numbertext">1 / 11</div>
+				<img src="./lib/assets/Tony Gambino Photography-1001.jpg" class="slide-image">
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">2 / 11</div>
+				<img src="./lib/assets/Tony Gambino Photography-1033.jpg" class="slide-image">
+			</div>
+			<div class="mySlides fade">
+				<div class="numbertext">3 / 11</div>
+				<img src="./lib/assets/Tony Gambino Photography-1034.jpg" class="slide-image">
+			</div>
+			<div class="mySlides fade">
+				<div class="numbertext">4 / 11</div>
+				<img src="./lib/assets/Tony Gambino Photography-1040.jpg" class="slide-image">
+			</div>
+			<div class="mySlides fade">
+				<div class="numbertext">5 / 11</div>
+				<img src="./lib/assets/Tony Gambino Photography-1042.jpg" class="slide-image">
+			</div>
+			<div class="mySlides fade">
+				<div class="numbertext">6 / 11</div>
+				<img src="./lib/assets/Tony Gambino Photography-1047.jpg" class="slide-image">
+			</div>
+			<div class="mySlides fade">
+				<div class="numbertext">7 / 11</div>
+				<img src="./lib/assets/Tony Gambino Photography-1043.jpg" class="slide-image">
+			</div>
+			<div class="mySlides fade">
+				<div class="numbertext">8 / 11</div>
+				<img src="./lib/assets/Tony Gambino Photography-1050.jpg" class="slide-image">
+			</div>
+			<div class="mySlides fade">
+				<div class="numbertext">9 / 11</div>
+				<img src="./lib/assets/Tony Gambino Photography-1052.jpg" class="slide-image">
+			</div>
+			<div class="mySlides fade">
+				<div class="numbertext">10 / 11</div>
+				<img src="./lib/assets/Tony Gambino Photography-1054.jpg" class="slide-image">
+			</div>
+			<div class="mySlides fade">
+				<div class="numbertext">11 / 11</div>
+				<img src="./lib/assets/Tony Gambino Photography-1056.jpg" class="slide-image">
+			</div>
+
+			<!-- Next and previous buttons -->
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+			</div>
+			<br>
+
+			<!-- The dots/circles -->
+			<div style="text-align:center">
+			<span class="dot" onclick="currentSlide(1)"></span>
+			<span class="dot" onclick="currentSlide(2)"></span>
+			<span class="dot" onclick="currentSlide(3)"></span>
+			<span class="dot" onclick="currentSlide(4)"></span>
+			<span class="dot" onclick="currentSlide(5)"></span>
+			<span class="dot" onclick="currentSlide(6)"></span>
+			<span class="dot" onclick="currentSlide(7)"></span>
+			<span class="dot" onclick="currentSlide(8)"></span>
+			<span class="dot" onclick="currentSlide(9)"></span>
+			<span class="dot" onclick="currentSlide(10)"></span>
+			<span class="dot" onclick="currentSlide(11)"></span>
+			<!-- <span class="dot" onclick="currentSlide(12)"></span> -->
+
+			</div>
+		</section>
+		<!-- <hr />
+		<section id="reviews">
+			<p>review</p>
+		</section> -->
+		<hr />
+		<h1>About</h1>
+		<section id="about">
+			<p>A three generation family home founded by local Carlton icons; Bob and Myrna Summers have been beloved by the Carlton community since 1969. Wanting to keep this beloved and peaceful property in the family, two of their sons and daughters in law have preserved this beautiful retreat for future generations. Come feel the love!</p>
+		</section>
+		<hr />
+		<h1>Contact</h1>
+		<section id="contact">
+			<!-- POSSIBLY ADD SOME IMAGES OF SURROUNDING CARLTON -->
+			<!-- <div class="contact-image-container">
+				<div>
+					<img src="./lib/assets/Tony Gambino Photography-1061.jpg" class="overview-image overview-wierd-image"/>
+				</div>
+				<div>
+					<img src="./lib/assets/Tony Gambino Photography-1062.jpg" class="overview-image overview-wierd-image"/>
+				</div>
+			</div> -->
+			<!-- GOOGLE MAPS API -->
+			<p>Have questions or concerns? Feel free to reach out and we will do our best to get back to you as soon as we can.</p>
+			<div class="contact-info">
+				<p><a href="mailto:summershillretreat@gmail.com">summershillretreat@gmail.com</a></p>
+				<p><a target="_blank" href="https://www.google.com/maps/place/Summers+Hill+Wine+Country+Retreat/@45.2966162,-123.2599565,17z/data=!3m1!4b1!4m5!3m4!1s0x549537d0c8b1f7a3:0x211034829d02c17d!8m2!3d45.2966124!4d-123.2577678">11063 NW Old Soldiers Rd. Carlton, OR 97111</a></p>
+				<p><a target="_blank" href="https://www.stayporchlight.com/property/summers-hill-retreat">Porchlight</a></p>
+				<p><a target="_blank" href="https://abnb.me/rTNzuC3GBhb">Airbnb</a></p>
+			</div>
+			
+		</section>
+		<div id="toTop" class="icon-container">
+			<div class="scrollBox">
+				<i class="fas fa-chevron-up scrollToTop"></i>
+			</div>
+		</div>
 	</div>
-	<section class="footer">
+	<!-- <section class="footer">
 		<div class="insta-container">
 			<a target="_blank" href="https://www.instagram.com/summershillwinecountryretreat/">
 				<img src="./lib/assets/insta_icon.png" class="insta" />
@@ -79,7 +231,119 @@
 		<div class="facebook-container">
 			<img src="./lib/assets/facebook_icon.png" class="facebook" />
 		</div>
-	</section>
+	</section> -->
 </body>
 <script src="https://kit.fontawesome.com/b9767f36ed.js" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<script>
+	let navParent = $('#nav');
+	let lastKnownScrollPosition = 0;
+	let ticking = false;
+
+	// THROTTLE FOR THE SCROLL FUNCTIONALITY
+	document.addEventListener('scroll', function(e) {
+	lastKnownScrollPosition = window.scrollY;
+
+	if($(window).scrollTop() > 100) {
+			$('#toTop').fadeIn("slow");
+		} else if($(window).scrollTop() === 0) {
+			$('#toTop').fadeOut("slow");
+		}
+
+	if (!ticking) {
+		window.setTimeout(function() {
+			onScroll(lastKnownScrollPosition);
+			ticking = false;
+		}, 500);
+
+		ticking = true;
+	}
+	});
+
+	$('.scrollBox').on("click", function() {
+		$(window).scrollTop(0);
+	})
+
+	if ($(window).width() >= 769) {
+		$('.scrollBox').hover( function() {
+			$('.scrollToTop').data('bounce', true); bounce($('.scrollToTop'));
+		}, function() {
+			$('.scrollToTop').data('bounce', false);
+		});
+	}
+
+	function bounce($elem) {
+		$elem.effect('bounce', { times: 1, distance: 5 }, 500, function() {
+			if ($(this).data('bounce')) bounce($elem);
+			else $elem.stop();
+		});
+	}
+	
+	$('.nav-item').click(function() {
+		navParent.find('.selected').removeClass('selected');
+		$(this).addClass('selected');
+	})
+
+	var slideIndex = 1;
+	showSlides(slideIndex);
+	
+	// Next/previous controls
+	function plusSlides(n) {
+	  showSlides(slideIndex += n);
+	}
+	
+	// Thumbnail image controls
+	function currentSlide(n) {
+	  showSlides(slideIndex = n);
+	}
+	
+	function showSlides(n) {
+	  var i;
+	  var slides = document.getElementsByClassName("mySlides");
+	  var dots = document.getElementsByClassName("dot");
+	  if (n > slides.length) {slideIndex = 1}
+	  if (n < 1) {slideIndex = slides.length}
+	  for (i = 0; i < slides.length; i++) {
+		  slides[i].style.display = "none";
+	  }
+	  for (i = 0; i < dots.length; i++) {
+		  dots[i].className = dots[i].className.replace(" active", "");
+	  }
+	  slides[slideIndex-1].style.display = "block";
+	  dots[slideIndex-1].className += " active";
+	}
+		
+
+	function onScroll(scrollPos){
+		$('.nav-item').each(function () {
+			var currLink = $(this);
+			var refElement = $(currLink.find("a").attr("href"));
+			if (refElement.position().top <= scrollPos + 300 && refElement.position().top + refElement.height() > scrollPos) {
+				$('.nav-item').removeClass("selected");
+				currLink.addClass("selected");
+			}
+			else{
+				currLink.removeClass("selected");
+			}
+		});
+		/* POSSIBLE HIDDEN HAMBURGER MENU ON SCROLL */
+		// if ($(window).scrollTop() !== 0) {
+		// 	$(".scroll-header").fadeTo(100, 1);
+		// } else {
+		// 	$(".scroll-header").fadeTo(100, 0)
+		// }
+
+		// THIS BREAKS SCROLL. DIG INTO IT FURTHER AND OPTIMIZE IT
+		// if($('.nav-item').hasClass('selected')) {
+			// const location = window.location.toString().split('#')[0];
+        	// window.history.replaceState(null, null, location + $('.nav-item a').attr('href'));
+			// window.location.hash = $('.nav-item a').attr('href');
+		// }
+
+	}
+
+</script>
 </html>
